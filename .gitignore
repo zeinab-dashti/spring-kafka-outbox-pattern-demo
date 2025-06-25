@@ -1,0 +1,14 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+

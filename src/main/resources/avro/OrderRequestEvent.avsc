@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "OrderRequestEvent",
+  "namespace": "space.zeinab.demo.avro",
+  "fields": [
+    {"name": "eventId", "type": "string"},
+    {"name": "productCode", "type": "string"},
+    {"name": "quantity", "type": "int"},
+    {"name": "timestamp", "type": "long"}
+  ]
+}

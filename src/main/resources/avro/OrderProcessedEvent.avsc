@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "OrderProcessedEvent",
+  "namespace": "space.zeinab.demo.avro",
+  "fields": [
+    {"name": "eventId", "type": "string"},
+    {"name": "status", "type": "string"},
+    {"name": "processedAt", "type": "long"}
+  ]
+}
